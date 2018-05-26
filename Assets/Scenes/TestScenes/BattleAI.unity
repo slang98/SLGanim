@@ -20424,7 +20424,7 @@ Prefab:
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
       propertyPath: attributes.Array.data[0].value
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
@@ -20459,12 +20459,12 @@ Prefab:
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
       propertyPath: attributes.Array.data[2].value
-      value: 346
+      value: 304
       objectReference: {fileID: 0}
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
       propertyPath: attributes.Array.data[2].valueMax
-      value: 352
+      value: 304
       objectReference: {fileID: 0}
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
@@ -20484,7 +20484,7 @@ Prefab:
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
       propertyPath: attributes.Array.data[3].valueMax
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
@@ -20519,7 +20519,7 @@ Prefab:
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
       propertyPath: attributes.Array.data[5].value
-      value: 27
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
@@ -20539,7 +20539,7 @@ Prefab:
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
       propertyPath: attributes.Array.data[6].value
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
@@ -20559,7 +20559,7 @@ Prefab:
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
       propertyPath: attributes.Array.data[7].value
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
@@ -20579,7 +20579,7 @@ Prefab:
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
       propertyPath: attributes.Array.data[8].value
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
@@ -20604,7 +20604,7 @@ Prefab:
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
       propertyPath: attributes.Array.data[9].valueMax
-      value: 15
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
         type: 2}
@@ -20670,6 +20670,11 @@ Prefab:
         type: 2}
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114691977174410072, guid: cb6add7f39447444aa0a25c2eb255aca,
+        type: 2}
+      propertyPath: attributes.Array.data[10].value
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb6add7f39447444aa0a25c2eb255aca, type: 2}
@@ -24660,7 +24665,9 @@ MonoBehaviour:
   aiUnit: {fileID: 0}
   aiTarget: {fileID: 0}
   moveTarget: {x: 0, y: 0, z: 0}
+  skillName: 
   outline: {fileID: 0}
+  rtsCamera: {fileID: 0}
 --- !u!114 &1186356279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24675,7 +24682,9 @@ MonoBehaviour:
   aiUnit: {fileID: 0}
   aiTarget: {fileID: 0}
   moveTarget: {x: 0, y: 0, z: 0}
+  skillName: 
   outline: {fileID: 0}
+  rtsCamera: {fileID: 0}
 --- !u!1 &1189023636
 GameObject:
   m_ObjectHideFlags: 0
