@@ -118,7 +118,7 @@
       <costMP>0</costMP>
       <costHP>0</costHP>
       <description>基本的体术，攻击相邻格的对手</description>
-      <skillRange>1</skillRange>
+      <skillRange>3</skillRange>
       <hoverRange>0</hoverRange>
       <skillRate>98</skillRate>
       <comboType>cannot</comboType>
